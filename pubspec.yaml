@@ -1,5 +1,5 @@
-name: eratani
-description: "A new Flutter project."
+name: user_management_app
+description: "A user management application with clean architecture"
 publish_to: "none"
 version: 0.1.0
 

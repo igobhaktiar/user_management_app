@@ -97,23 +97,28 @@ class UserCubit extends Cubit<UserState> {
   Future<void> registerUser(RegisterUserParams params) async {
     try {
       final user = await userRemoteDataSource.registerUser(params);
-      
+
       // If we have a loaded state, add the new user to the list
       if (state is UserLoaded) {
         final currentState = state as UserLoaded;
         final updatedUsers = [user, ...currentState.users];
-        
-        emit(currentState.copyWith(
-          users: updatedUsers,
-          filteredUsers: currentState.searchQuery.isEmpty 
-              ? updatedUsers 
-              : updatedUsers.where((u) {
-                  final lowercaseName = u.name.toLowerCase();
-                  final lowercaseEmail = u.email.toLowerCase();
-                  final lowercaseQuery = currentState.searchQuery.toLowerCase();
-                  return lowercaseName.contains(lowercaseQuery) || 
-                         lowercaseEmail.contains(lowercaseQuery);
-                }).toList(),
-        ));
+
+        emit(
+          currentState.copyWith(
+            users: updatedUsers,
+            filteredUsers: currentState.searchQuery.isEmpty
+                ? updatedUsers
+                : updatedUsers.where((u) {
+                    final lowercaseName = u.name.toLowerCase();
+                    final lowercaseEmail = u.email.toLowerCase();
+                    final lowercaseQuery = currentState.searchQuery.toLowerCase();
+                    return lowercaseName.contains(lowercaseQuery) || lowercaseEmail.contains(lowercaseQuery);
+                  }).toList(),
+          ),
+        );
       }
-    } catch (
+    } catch (e) {
+      throw Exception(e.toString());
+    }
+  }
+}

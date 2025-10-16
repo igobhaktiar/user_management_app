@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'core/di/injection_container.dart' as di;
+import 'core/routes/routes.dart';
 import 'features/user/presentation/bloc/user_cubit.dart';
-import 'features/user/presentation/pages/user_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,10 +15,14 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'User Search',
-      theme: ThemeData(primarySwatch: Colors.blue, useMaterial3: true),
-      home: BlocProvider(create: (context) => di.sl<UserCubit>()..getUsers(), child: const UserPage()),
+    return BlocProvider(
+      create: (context) => di.sl<UserCubit>()..getUsers(),
+      child: MaterialApp(
+        title: 'User Management App',
+        theme: ThemeData(primarySwatch: Colors.blue, useMaterial3: true),
+        initialRoute: Routes.home,
+        routes: Routes.getRoutes(),
+      ),
     );
   }
 }
