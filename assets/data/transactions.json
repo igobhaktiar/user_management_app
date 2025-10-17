@@ -1,0 +1,202 @@
+[
+  {
+    "id": "t1",
+    "productId": "1",
+    "productName": "Laptop Dell XPS 15",
+    "quantity": 5,
+    "date": "2025-10-02T10:30:00Z",
+    "type": "sale"
+  },
+  {
+    "id": "t2",
+    "productId": "2",
+    "productName": "Mouse Logitech MX Master",
+    "quantity": 15,
+    "date": "2025-10-02T14:20:00Z",
+    "type": "sale"
+  },
+  {
+    "id": "t3",
+    "productId": "1",
+    "productName": "Laptop Dell XPS 15",
+    "quantity": 10,
+    "date": "2025-10-03T09:15:00Z",
+    "type": "purchase"
+  },
+  {
+    "id": "t4",
+    "productId": "3",
+    "productName": "Keyboard Mechanical RGB",
+    "quantity": 20,
+    "date": "2025-10-05T16:45:00Z",
+    "type": "sale"
+  },
+  {
+    "id": "t5",
+    "productId": "4",
+    "productName": "Monitor LG 27 inch 4K",
+    "quantity": 8,
+    "date": "2025-10-08T11:30:00Z",
+    "type": "sale"
+  },
+  {
+    "id": "t6",
+    "productId": "5",
+    "productName": "Webcam Logitech C920",
+    "quantity": 12,
+    "date": "2025-10-09T13:20:00Z",
+    "type": "sale"
+  },
+  {
+    "id": "t7",
+    "productId": "2",
+    "productName": "Mouse Logitech MX Master",
+    "quantity": 50,
+    "date": "2025-10-10T08:00:00Z",
+    "type": "purchase"
+  },
+  {
+    "id": "t8",
+    "productId": "3",
+    "productName": "Keyboard Mechanical RGB",
+    "quantity": 25,
+    "date": "2025-10-12T15:30:00Z",
+    "type": "sale"
+  },
+  {
+    "id": "t9",
+    "productId": "1",
+    "productName": "Laptop Dell XPS 15",
+    "quantity": 7,
+    "date": "2025-10-15T10:00:00Z",
+    "type": "sale"
+  },
+  {
+    "id": "t10",
+    "productId": "4",
+    "productName": "Monitor LG 27 inch 4K",
+    "quantity": 20,
+    "date": "2025-10-16T12:30:00Z",
+    "type": "purchase"
+  },
+  {
+    "id": "t11",
+    "productId": "5",
+    "productName": "Webcam Logitech C920",
+    "quantity": 18,
+    "date": "2025-10-17T09:45:00Z",
+    "type": "sale"
+  },
+  {
+    "id": "t12",
+    "productId": "2",
+    "productName": "Mouse Logitech MX Master",
+    "quantity": 22,
+    "date": "2025-10-19T14:15:00Z",
+    "type": "sale"
+  },
+  {
+    "id": "t13",
+    "productId": "3",
+    "productName": "Keyboard Mechanical RGB",
+    "quantity": 30,
+    "date": "2025-10-22T11:00:00Z",
+    "type": "sale"
+  },
+  {
+    "id": "t14",
+    "productId": "1",
+    "productName": "Laptop Dell XPS 15",
+    "quantity": 15,
+    "date": "2025-10-23T16:20:00Z",
+    "type": "purchase"
+  },
+  {
+    "id": "t15",
+    "productId": "4",
+    "productName": "Monitor LG 27 inch 4K",
+    "quantity": 10,
+    "date": "2025-10-24T13:40:00Z",
+    "type": "sale"
+  },
+  {
+    "id": "t16",
+    "productId": "5",
+    "productName": "Webcam Logitech C920",
+    "quantity": 25,
+    "date": "2025-10-26T10:30:00Z",
+    "type": "purchase"
+  },
+  {
+    "id": "t17",
+    "productId": "6",
+    "productName": "HP Pavilion Gaming Laptop",
+    "quantity": 5,
+    "date": "2025-10-03T11:20:00Z",
+    "type": "sale"
+  },
+  {
+    "id": "t18",
+    "productId": "7",
+    "productName": "SSD Samsung 1TB",
+    "quantity": 30,
+    "date": "2025-10-05T14:30:00Z",
+    "type": "sale"
+  },
+  {
+    "id": "t19",
+    "productId": "8",
+    "productName": "RAM Corsair 16GB DDR4",
+    "quantity": 40,
+    "date": "2025-10-07T09:00:00Z",
+    "type": "sale"
+  },
+  {
+    "id": "t20",
+    "productId": "9",
+    "productName": "Headset Sony WH-1000XM5",
+    "quantity": 15,
+    "date": "2025-10-10T15:45:00Z",
+    "type": "sale"
+  },
+  {
+    "id": "t21",
+    "productId": "10",
+    "productName": "Printer Epson L3250",
+    "quantity": 8,
+    "date": "2025-10-12T10:15:00Z",
+    "type": "sale"
+  },
+  {
+    "id": "t22",
+    "productId": "7",
+    "productName": "SSD Samsung 1TB",
+    "quantity": 50,
+    "date": "2025-10-14T08:30:00Z",
+    "type": "purchase"
+  },
+  {
+    "id": "t23",
+    "productId": "8",
+    "productName": "RAM Corsair 16GB DDR4",
+    "quantity": 60,
+    "date": "2025-10-16T13:00:00Z",
+    "type": "purchase"
+  },
+  {
+    "id": "t24",
+    "productId": "9",
+    "productName": "Headset Sony WH-1000XM5",
+    "quantity": 20,
+    "date": "2025-10-18T11:30:00Z",
+    "type": "purchase"
+  },
+  {
+    "id": "t25",
+    "productId": "10",
+    "productName": "Printer Epson L3250",
+    "quantity": 12,
+    "date": "2025-10-20T14:45:00Z",
+    "type": "sale"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "name": "Laptop Dell XPS 15",
+    "category": "Electronics",
+    "initialStock": 50,
+    "price": 15000000
+  },
+  {
+    "id": "2",
+    "name": "Mouse Logitech MX Master",
+    "category": "Accessories",
+    "initialStock": 200,
+    "price": 1200000
+  },
+  {
+    "id": "3",
+    "name": "Keyboard Mechanical RGB",
+    "category": "Accessories",
+    "initialStock": 150,
+    "price": 850000
+  },
+  {
+    "id": "4",
+    "name": "Monitor LG 27 inch 4K",
+    "category": "Electronics",
+    "initialStock": 75,
+    "price": 4500000
+  },
+  {
+    "id": "5",
+    "name": "Webcam Logitech C920",
+    "category": "Accessories",
+    "initialStock": 100,
+    "price": 1500000
+  },
+  {
+    "id": "6",
+    "name": "HP Pavilion Gaming Laptop",
+    "category": "Electronics",
+    "initialStock": 40,
+    "price": 12000000
+  },
+  {
+    "id": "7",
+    "name": "SSD Samsung 1TB",
+    "category": "Storage",
+    "initialStock": 120,
+    "price": 1800000
+  },
+  {
+    "id": "8",
+    "name": "RAM Corsair 16GB DDR4",
+    "category": "Components",
+    "initialStock": 180,
+    "price": 1100000
+  },
+  {
+    "id": "9",
+    "name": "Headset Sony WH-1000XM5",
+    "category": "Accessories",
+    "initialStock": 90,
+    "price": 4200000
+  },
+  {
+    "id": "10",
+    "name": "Printer Epson L3250",
+    "category": "Electronics",
+    "initialStock": 60,
+    "price": 2500000
+  }
+]

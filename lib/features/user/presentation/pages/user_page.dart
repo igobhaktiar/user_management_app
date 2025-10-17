@@ -59,6 +59,19 @@ class _UserPageState extends State<UserPage> {
         ),
         actions: [
           IconButton(
+            icon: const Icon(Icons.favorite, color: Colors.white),
+            tooltip: 'Heart Beat Monitor',
+            onPressed: () {
+              Navigator.pushNamed(context, Routes.heartbeat);
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.inventory_2_rounded, color: Colors.white),
+            onPressed: () {
+              Navigator.pushNamed(context, Routes.stockList);
+            },
+          ),
+          IconButton(
             icon: const Icon(Icons.refresh, color: Colors.white),
             onPressed: () {
               context.read<UserCubit>().getUsers(isRefresh: true);

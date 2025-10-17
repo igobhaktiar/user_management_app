@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'core/di/injection_container.dart' as di;
 import 'core/routes/routes.dart';
 import 'features/user/presentation/bloc/user_cubit.dart';
+import 'features/stock/presentation/bloc/stock_cubit.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,13 +16,17 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (context) => di.sl<UserCubit>()..getUsers(),
+    return MultiBlocProvider(
+      providers: [
+        BlocProvider(create: (context) => di.sl<UserCubit>()..getUsers()),
+        BlocProvider(create: (context) => di.sl<StockCubit>()),
+      ],
       child: MaterialApp(
         title: 'User Management App',
         theme: ThemeData(primarySwatch: Colors.blue, useMaterial3: true),
         initialRoute: Routes.home,
         routes: Routes.getRoutes(),
+        onGenerateRoute: Routes.onGenerateRoute,
       ),
     );
   }
