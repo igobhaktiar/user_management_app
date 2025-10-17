@@ -1,4 +1,4 @@
-# 📱 Eratani - User Management & Stock Tracking App
+# User Management & Stock Tracking App
 
 A modern Flutter application featuring user management, stock inventory tracking, and heart rate monitoring with beautiful animations and Material Design 3.
 
@@ -6,9 +6,9 @@ A modern Flutter application featuring user management, stock inventory tracking
 [![Dart Version](https://img.shields.io/badge/Dart-3.9.2-0175C2?logo=dart)](https://dart.dev)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## ✨ Features
+## Features
 
-### 👥 User Management
+### User Management
 
 - **User List Display** - View all registered users with elegant card design
 - **Search Functionality** - Search users by name or email in real-time
@@ -16,7 +16,7 @@ A modern Flutter application featuring user management, stock inventory tracking
 - **Modern UI** - Material Design 3 with gradient headers and smooth animations
 - **Pull to Refresh** - Refresh user data with swipe gesture
 
-### 📦 Stock Management (Clean Architecture)
+### Stock Management (Clean Architecture)
 
 - **Product Inventory** - Track multiple products with categories
 - **Stock Transactions** - Record purchase and sale transactions
@@ -25,7 +25,7 @@ A modern Flutter application featuring user management, stock inventory tracking
 - **JSON Data Storage** - Dummy data loaded from JSON assets
 - **Category Management** - Organize products by Electronics, Accessories, Storage, Components
 
-### ❤️ Heart Beat Monitor
+### Heart Beat Monitor
 
 - **Animated Heart Beat** - Realistic heart animation with double-thump effect
 - **BPM Control** - Adjustable beats per minute (40-200 BPM)
@@ -38,7 +38,7 @@ A modern Flutter application featuring user management, stock inventory tracking
   - \> 180: Maximum heart rate
 - **Start/Stop Control** - Interactive animation control
 
-## 📸 Screenshots
+## Screenshots
 
 ### User Management
 
@@ -52,7 +52,7 @@ A modern Flutter application featuring user management, stock inventory tracking
 
 <img src="screenshots/heartbeat.png" width="250" alt="Heart Beat Monitor">
 
-## 🏗️ Architecture
+## Architecture
 
 This project follows **Clean Architecture** principles with clear separation of concerns:
 
@@ -93,7 +93,7 @@ lib/
         └── transactions.json          # Transaction dummy data
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Flutter SDK**: 3.35.4
 - **Dart**: 3.9.2
@@ -104,7 +104,7 @@ lib/
 - **UUID Generation**: uuid
 - **UI Loading**: shimmer
 
-## 📦 Dependencies
+## Dependencies
 
 ```yaml
 dependencies:
@@ -123,7 +123,7 @@ dev_dependencies:
   flutter_lints: ^5.0.0
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -160,39 +160,7 @@ dev_dependencies:
 flutter build apk --release
 ```
 
-**iOS IPA**
-
-```bash
-flutter build ios --release
-```
-
-**Web**
-
-```bash
-flutter build web --release
-```
-
-## 📱 Platform Support
-
-| Platform | Support |
-| -------- | ------- |
-| Android  | ✅      |
-| iOS      | ✅      |
-| Web      | ✅      |
-| Windows  | ✅      |
-| macOS    | ✅      |
-| Linux    | ✅      |
-
-## 🎨 Design Features
-
-- **Material Design 3** - Modern and consistent UI
-- **Gradient Backgrounds** - Eye-catching color gradients
-- **Smooth Animations** - 60fps animations with AnimationController
-- **Responsive Layout** - Adapts to different screen sizes
-- **Custom Shapes** - Rounded corners and shadows
-- **Color-coded Categories** - Visual distinction for data types
-
-## 📊 Data Structure
+## Data Structure
 
 ### Products JSON
 
@@ -219,7 +187,7 @@ flutter build web --release
 }
 ```
 
-## 🔄 State Management
+## State Management
 
 The app uses **BLoC (Cubit)** pattern for state management:
 
@@ -227,51 +195,3 @@ The app uses **BLoC (Cubit)** pattern for state management:
 - **StockCubit** - Manages stock, transactions, and monthly summaries
 - **Immutable States** - Predictable state changes
 - **Event-driven** - Reactive UI updates
-
-## 🧪 Testing
-
-Run unit tests:
-
-```bash
-flutter test
-```
-
-Run integration tests:
-
-```bash
-flutter test integration_test
-```
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**Igo Bhaktiar**
-
-- GitHub: [@igobhaktiar](https://github.com/igobhaktiar)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📧 Support
-
-For support, email your-email@example.com or open an issue in the repository.
-
-## 🙏 Acknowledgments
-
-- Flutter Team for the amazing framework
-- Material Design for design guidelines
-- Community packages maintainers
-
----
-
-Made with ❤️ using Flutter
