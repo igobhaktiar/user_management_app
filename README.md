@@ -138,7 +138,6 @@ dev_dependencies:
 
    ```bash
    git clone https://github.com/igobhaktiar/user_management_app.git
-   cd eratani
    ```
 
 2. **Install dependencies**
